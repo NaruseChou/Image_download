@@ -1,0 +1,29 @@
+name: upload_image
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  file_picker: ^8.1.4
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.0
+  image_editor_plus: ^1.0.6
+  path_provider: ^2.0.13
+  flutter_svg: ^2.0.15
+  flutter_colorpicker: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Указываем папку assets для добавления изображений
+  assets:
+    - assets/build.png
